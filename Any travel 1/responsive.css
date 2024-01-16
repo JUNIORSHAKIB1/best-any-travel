@@ -1,17 +1,878 @@
-@media screen and (max-width: 576) {
-    .header-style-1,
-    .header-item-1{
-        display:grid;
-        flex-direction: column;
+@media only screen and (max-width: 600px){
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
-    .travel-background{
-        flex-direction: column;
-        height: 200px;
-        width: 200px;
+    /* header style start  */
+    
+    .header-style-all{
+    
+    }
+    .hiden-item{
+        display: block;
+        margin-top: 35px;
+    }
+    .header-style-1{
+        min-height: 60px;
+        display: flex;
+        max-width: 1100px;
+        margin: 0 auto;
+        /* margin-top: 50px; */
+        /* display: none; */
+        align-items: center;
+        justify-content: space-around;
+        /* margin-top: 100px; */
     }
     .header-style-2{
-        height: 100px;
-        width: 50px;
+        display: flex;
+        align-items: center;
+        width: 50%;
     }
-      
+    .header-style-2 img{
+        width: 50px;
+        height: 44.008px;
+        /* margin-top: 30px; */
+        
+    }
+    .header-style-2 p{
+        color: #131318;
+    
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        /* margin-left: 10px; */
+    }
+    .travel-color{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .header-item-1{
+        width: 50%;
+        /* display: flex; */
+        gap: 43px;
+        align-items: center;
+        margin-top: 30px;
+        display: none;
+        
+        
+    }
+    .header-item-1 a{
+        text-decoration: none;
+        align-items: right;
+        margin-left: 13px;
+        font-size: 19px;
+        font-weight: 400;
+    }
+    /* nev style end  */
+    /* Explore Your Travel start */
+    .travel-background{
+        max-width: 1100px;
+        max-height: 500px;
+        background-color: antiquewhite;
+        margin: 0 auto;
+        margin-top: 50px;
+    
+    }
+    .trave-1{
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-size: cover;
+        min-height: 500px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .trave-1 h1{
+        color: #FFF;
+    
+        font-family: Mulish;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 150px;
+    }
+    .trave-1 p{
+        color: #FFF;
+        width: 676px;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        
+    }
+    .trave-2{
+        background-color: rgba(255, 255, 255, 0.30);
+        height: 75px;
+        width: 800px;
+        display: inline-flex;
+        margin-top: 30px;
+        gap: 15px;
+        padding-top: 15px;
+        border-radius: 7px;
+        padding-left: 10px;
+    }
+    
+    .trave-3{
+        width: 174px;
+        height: 45px;
+        border: none;
+        border-radius: 7px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    
+    .trave-4 button{
+        width: 174px;
+        height: 45px;
+        border: none;
+        border-radius: 7px;
+        background: #FF5400;
+        font-size: 16px;
+        
+    }
+    .trave-5 input{
+        width: 174px;
+        height: 45px;
+        margin-left: 27px;
+        border: none;
+        border-radius: 7px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    /* Explore Your Travel end  */
+    /* Our Popular Tours starts  */
+    .all-style-popular{
+        max-width: 1100px;
+        max-height: 500px;
+        margin: 0 auto;
+        margin-top: 100px;
+        
+    
+    }
+    .popular-style-1{
+    
+    }
+    .popular-style-1 h1{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal; 
+        font-weight: 800;
+        line-height: normal;
+        
+        
+    }
+    .popular-style-1 li{
+            margin-top: 15px;
+    }
+    .popular-style-1 p{
+        color: rgba(19, 19, 24, 0.70);
+        width: 577px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 26px;
+        
+        margin-top: 25px;
+    }
+    .popular-style-1 {
+        color: rgba(19, 19, 24, 0.70);
+        width: 525px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+    
+    }
+    .popular-style-1 h5{
+        color: #5A5A5D;
+        width: 530px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        margin-top: 15px;
+    }
+    .popular-style-1 button{
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        margin-top: 50px;
+        margin-top: 34px;
+    
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .popular-all{
+        display: flex;
+    }
+    .popular-style-2{
+        width: 45%;
+        height: 37%;
+        display: flex;
+        /* padding-left: 80px; */
+        margin-left: 80px;
+    }
+    .popular-style-2 img {
+        width: 100%;
+        height: 80%;
+        
+    }
+    /* Our Popular Tours end   */
+    
+    /* <!-- Choose Your Destination style start --> */
+    
+    .choose-head{
+        max-width: 1100px;
+        height: 1060px;
+        margin: 0 auto;
+    }
+    .choose-text-all{
+        margin-top: 50px;
+    }
+    .choose-text-all h1 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .choose-text-all p{
+        color: rgba(19, 19, 24, 0.70);
+        width: 643px;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        border: #FF5400 solid 2px;
+        margin-left: 200px;
+        margin-top: 15px;
+    }
+    .choose-img-all{
+        display: grid;
+        margin-top: 35px;
+    }
+    .choose-img-1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .choose-img-1 img{
+        height: 250px;
+        width: 543px;
+    }
+    .choose-img-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .img-1-small{
+        height: 286px;
+        width: 330px;
+    }
+    .choose-img-3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .choose-img-2{
+        width: 610px;
+        height: 290px;
+    }
+    .choose-img-4{
+        margin-top: 10px;
+        width: 470px;
+        height: 290px;
+    }
+    /* <!-- Why Choose Us style start --> */
+    
+    .why-choose-all{
+        max-width: 1100px;
+        height: 800px;
+        margin: 0 auto;
+    }
+    
+    .Why-choose-text h1{
+        color: #131318;
+    
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .Why-choose-text p{
+        width: 643px;
+        color: rgba(19, 19, 24, 0.70);
+        margin-left: 200px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        text-align: center;
+        align-items: center;
+    }
+    .choose-all-1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+    }
+    .why-choose-1{
+        background-color: rgb(235, 231, 231);
+        height: 300px;
+        width:525px;
+        border-radius: 7px;
+        
+    }
+    .why-choose-1 img{
+        width: 64px;
+        height: 64px;
+        margin-top: 30px;
+        margin-left: 30px;
+    
+    }
+    .why-choose-1 h2{
+        color: #131318;
+        margin-left: 30px;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .why-choose-1 p{
+        color: #5A5A5D;
+        width: 486px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    
+    .why-choose-2{
+        background-color: rgb(235, 231, 231);
+        height: 300px;
+        width:525px;
+        margin-left: -255px;
+        border-radius: 7px;
+    }
+    .why-choose-2 img{
+        width: 64px;
+        height: 64px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .why-choose-2 h2{
+        color: #131318;
+        margin-left: 30px;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .why-choose-2 p{
+        color: #5A5A5D;
+        width: 486px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .why-choose-3{
+        background-color: rgb(235, 231, 231);
+        height: 300px;
+        width:525px;
+        margin-top: 20px;
+        margin-left: 300px;
+        border-radius: 7px;
+    }
+    .why-choose-3 img{
+        width: 64px;
+        height: 64px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .why-choose-3 h2{
+        color: #131318;
+        margin-left: 30px;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .why-choose-3 p{
+        color: #5A5A5D;
+        width: 486px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    /* <!-- Why Choose Us style end --> */ 
+    .deals-all-style{
+        max-width: 1100px;
+        height: 1800px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .deals-head{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .img-style-deals{
+        position: relative;
+        margin-top: 20px;
+    }
+    .img-style-deals img{
+        max-width: 1095px;
+        position: relative;
+    }
+    .deals-head h1{
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .deals-head p{
+        width: 643px;
+        color: rgba(19, 19, 24, 0.70);
+        margin-left: 200px;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+    .img-deals-1{
+        background-color: rgba(255, 255, 255, 0.70);
+        height: 300px;
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        padding-left: 30px;
+        position: absolute;
+        top: 100px;
+        right: 100px;
+        
+    }
+    .img-deals-1 img, p {
+        margin-top:35px;
+    }
+    .img-bad{
+        margin-left: -420px;
+        
+    }
+    .img-bad-1{
+        margin-left: -310px;
+    }
+    .img-bad-2{
+        margin-left: -280px;
+    }
+    
+    .img-bad-3{
+        margin-left: -200px;
+    }
+    .img-bad-4{
+        margin-left: -170px;
+    }
+    .img-deals-2{
+        display: grid;
+    
+    }
+    .img-deals-2 h3{
+        color: #131318; 
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: -40px;
+    }
+    .img-deals-2 p{
+        color: #5A5A5D;
+        width: 452px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: -10px;
+    }
+    .img-deals-2 h4{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: -10px;
+    }
+    .img-deals-2 button{
+        color: #FFF;
+    
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        width: 150px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        margin-top: -10px;
+        border: none;
+    }
+    /* secend aim style  */
+    
+    .second-img-1{
+        background-color: rgba(255, 255, 255, 0.70);
+        height: 300px;
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        padding-left: 30px;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+    }
+    .img-bad-style{
+        margin-top: 30px;
+    }
+    .img-bad-end-1{
+        margin-top:10px;
+        margin-left: -300px;
+        margin-top: 30px;
+    }
+    .img-bad-bad-3{
+        margin-left: -200px;
+        margin-top: 30px;
+    }
+    .second-style-last{
+        text-align: center;
+        flex-shrink: 0;
+        border-radius: 8px;
+        margin-top: 50px;
+       
+    }
+    .second-style-last button{
+        color: #FFF;
+        background: #FF5400;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        width: 310px;
+        height: 52px;
+        
+    }
+    .simpol-1{
+        width: 45%;
+        height: 37%;
+        display: flex;
+        margin-left: 80px;
+    }
+    .simpol-1 iframe {
+        width: 100%;
+        height: 395px;
+    }
+    .sinple-style-2{
+        width: 400px;
+    
+        color: #131318;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 60px; 
+    }
+    .sinple-style-3{
+        color: #131318;
+    
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .all-style-simpole{
+        max-width: 1100px;
+        max-height: 500px;
+        margin: 0 auto;
+    }
+    /* my section style start ........ */
+    
+    .my-section{
+        max-width: 1100px;
+        height: 600px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    
+    }
+    .my-section-flex{
+        display: flex;
+    }
+    .my-section-1{
+            width: 50%;
+    
+    }
+    .my-section-1 img{
+        height: 100%;
+        width:100%;
+    }
+    .my-section-2{
+        width: 50%;
+        background-color: #131318;
+        height: 600px;
+    }
+    .my-section-2 h2{
+        color: #ec1212;
+        font-size: 50px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .my-section-2 h5{
+        color: #ec1212;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .my-section-2 h1{
+        font-size: 45px;
+        text-align: center;
+        justify-content: space-between;
+        color: #ec1212;
+        margin-top: 50px;
+    }
+    .my-section-2 h1:hover{
+            color: #fefeff;
+    }
+    /* <!-- A Simple Perfect Place To Get Lost end  --> */
+    
+    .all-newsletter-style{
+        max-width: 1100px;
+        height: 460px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .newsletter-head{
+        display: flex;
+        gap: 20px;
+    
+    }
+    .newsletter-style-1{
+        width: 40%;
+        background-color:  rgba(217, 209, 209, 0.1);
+        display: grid;
+        border-radius: 7px;
+    
+    
+    }
+    .newsletter-style-1 h2{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 25px;
+        margin-left: 30px;
+        
+    }
+    .newsletter-style-1 p{
+        line-height: 26px; 
+        width: 350px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 30px;
+    }
+    .newsletter-style-1 input{
+        height: 50px;
+        width: 400px;
+        border-radius: 8px;
+        border: none;
+        margin-left: 30px;
+    
+        
+    
+    }
+    .newsletter-style-1 button{
+        width: 400px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        margin-left: 30px;
+    
+    
+    }
+    
+    
+    .newsletters-style-2{
+        width: 50%;
+        display: flex;
+    }
+    .newsletters-style-2 img{
+        position:relative;
+        height: 100%;
+        width: 117%;
+    }
+    .newsletar-button-1{
+        width: 324px;
+        height: 120px;
+        transform: rotate(-29.728deg);
+        flex-shrink: 0;
+        position: relative;
+        border-radius: 16px;
+        background: #FF5400;
+        color: #FFF;
+        top: 210px;
+        left: -330px;
+        
+    }
+    .newsletar-button-1 p{
+        color: #FFF;
+    
+        font-family: Mulish;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+    .newsletar-button-1 h2{
+        text-align: center;
+        margin-top: 40px;
+    }
+    /* <!-- Newsletter style end --> */
+    .footer-all-style{
+        min-height: 500px;
+        width: 1300px;
+        margin: 0 auto;
+        background-color: rgba(19, 19, 24, 0.05);
+    
+    
+    }
+    .footer-style-1{
+        display: flex;
+        align-items: center;
+    }
+    .footer-style-1 img{
+        width: 50px;
+        height: 46.673px;
+        flex-shrink: 0;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 500px;
+    }
+    .footer-style-1 p{
+        color: var(--Dark-01, #131318);
+    
+        font-family: Mulish;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .footer-color{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .foooter-all-1 h6{
+        color: #5A5A5D;
+        width: 769px;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    .footer-icon{
+        margin-top: 40px;
+        margin-left: 570px;
+        gap: 30px;
+        display: flex;
+        
+    }
+    .footer-last{
+        color: #131318;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 100px;
+    }
+    .footer-brek{
+        width: 872px;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: 70px;
+    }
+    
 }

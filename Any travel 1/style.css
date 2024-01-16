@@ -1,5 +1,4 @@
 
-
 *{
     padding: 0;
     margin: 0;
@@ -863,5 +862,8 @@
     text-align: center;
     margin-left: 200px;
     margin-top: 70px;
+}
+.hiden-item{
+    display: none;
 }
 /* footer style donne */
