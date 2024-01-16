@@ -25,6 +25,7 @@
 .header-style-2 img{
     width: 50px;
     height: 44.008px;
+    margin-top: 30px;
     
 }
 .header-style-2 p{
@@ -50,6 +51,7 @@
     display: flex;
     gap: 43px;
     align-items: center;
+    margin-top: 30px;
     
     
 }
@@ -639,13 +641,58 @@
     max-height: 500px;
     margin: 0 auto;
 }
+/* my section style start ........ */
+
+.my-section{
+    max-width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+.my-section-flex{
+    display: flex;
+}
+.my-section-1{
+        width: 50%;
+
+}
+.my-section-1 img{
+    height: 100%;
+    width:100%;
+}
+.my-section-2{
+    width: 50%;
+    background-color: #131318;
+    height: 600px;
+}
+.my-section-2 h2{
+    color: #ec1212;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -10px;
+}
+.my-section-2 h5{
+    color: #ec1212;
+    margin-top: 50px;
+    text-align: center;
+}
+.my-section-2 h1{
+    font-size: 45px;
+    text-align: center;
+    justify-content: space-between;
+    color: #ec1212;
+    margin-top: 50px;
+}
+.my-section-2 h1:hover{
+        color: #fefeff;
+}
 /* <!-- A Simple Perfect Place To Get Lost end  --> */
 
 .all-newsletter-style{
     max-width: 1100px;
     height: 460px;
     margin: 0 auto;
-    border: #FF5400 2px solid;
     margin-top: 50px;
 }
 .newsletter-head{
@@ -817,3 +864,4 @@
     margin-left: 200px;
     margin-top: 70px;
 }
+/* footer style donne */

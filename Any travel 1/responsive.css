@@ -1,0 +1,17 @@
+@media screen and (max-width: 576) {
+    .header-style-1,
+    .header-item-1{
+        display:grid;
+        flex-direction: column;
+    }
+    .travel-background{
+        flex-direction: column;
+        height: 200px;
+        width: 200px;
+    }
+    .header-style-2{
+        height: 100px;
+        width: 50px;
+    }
+      
+}
