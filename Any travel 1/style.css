@@ -1743,6 +1743,9 @@
         margin-left: 200px;
         margin-top: 70px;
     }
+    .hiden-item{
+        display: none;
+    }
     /* footer style donne */
     
 }

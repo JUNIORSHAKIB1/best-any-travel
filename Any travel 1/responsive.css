@@ -641,7 +641,6 @@
         
     }
 
-
     /* simpole srylw  */
 
     .simpol-1{
@@ -789,8 +788,6 @@
         background: #FF5400;
         border: none;
         margin-left: 30px;
-    
-    
     }
     
     
@@ -867,7 +864,6 @@
         line-height: normal;
         margin-top: 100px;
         margin-left: 20px;
-        margin-left: 
     }
     .footer-color{
         color: #FF5400;
@@ -918,10 +914,5 @@
         margin-left: 25px;
     }
 
-
-
-    .hiden-item{
-        display: none;
-    }
     /* footer style donne */
 }
